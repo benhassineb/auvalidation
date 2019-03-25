@@ -1,0 +1,24 @@
+{
+  "name": "web-valida",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aurelia-binding": "^2.2.1",
+    "aurelia-templating-binding": "^1.5.2",
+    "aurelia-validation": "^1.4.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
